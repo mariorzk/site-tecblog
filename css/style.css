@@ -1,0 +1,129 @@
+/* Limpando formatações padrão */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: #e6e6e6;
+}
+
+/* Aréa de cabeçalho e menu */
+
+#header {
+  height: 150px;
+  background: #f7b600;
+}
+#logo {
+  width: 280px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: auto;
+}
+#nome1 {
+  font-size: 50pt;
+  color: #4e4e4e;
+}
+#nome2 {
+  font-size: 50pt;
+  font-weight: bold;
+  color: white;
+}
+#menu {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #f7b600;
+}
+a:hover {
+  text-decoration: underline;
+}
+#menu a:link,
+#menu a:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px 12px;
+}
+#menu a:hover {
+  background: white;
+  color: #f7b600;
+}
+
+/* Formatação do conteúdo do site */
+#posts {
+  width: 670px;
+  float: left;
+}
+
+#container {
+  width: 1200px;
+  margin: auto;
+}
+.artigo {
+  background: white;
+  padding: 15px;
+  margin: 15px 0px;
+}
+
+h2 {
+  margin: 0;
+  color: #f7b600;
+}
+.data {
+  font-size: 0.8em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Formatação do conteúdo da lateral direita */
+#menu-lateral {
+  float: right;
+  width: 480px;
+  margin: 15px 0px;
+}
+.post-recente,
+#categorias {
+  padding: 15px;
+}
+.post-recente p{
+  margin: 0;
+}
+hr{
+  margin: 0px 10px;
+
+}
+.janela,
+.janela2 {
+  background: white;
+  margin-bottom: 15px;
+}
+
+.janela a,
+.janela2 a {
+  font-size: 12pt;
+  padding-left: 3px;
+}
+.janela2 a {
+  width: 100px;
+  font-size: 14pt;
+  display: flex;
+}
+.t-janela {
+  color: #4e4e4e;
+  background-color: #c5c5c5;
+  padding: 3px;
+}
+
+/* Rodapé do site */
+
+#rodape {
+  clear: both;  
+  background: #ccc;
+  padding: 15px;
+  text-align: center;
+}
